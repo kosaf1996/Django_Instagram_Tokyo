@@ -165,10 +165,10 @@
       "fsxWindowsFileServerVolumeConfiguration": null,
       "efsVolumeConfiguration": {
         "transitEncryptionPort": null,
-        "fileSystemId": "fs-06b92af10d6ad8d3c",
+        "fileSystemId": "fs-0a4a1244e4fe9cd32",
         "authorizationConfig": {
           "iam": "DISABLED",
-          "accessPointId": "fsap-049ed14d00689a878"
+          "accessPointId": "fsap-0bb935b3c640c2658"
         },
         "transitEncryption": "ENABLED",
         "rootDirectory": "/"
