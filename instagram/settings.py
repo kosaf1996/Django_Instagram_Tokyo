@@ -95,7 +95,12 @@ DATABASES = {
     }
 }
 #DynamoDB
-
+SESSION_ENGINE = 'dynamodb_sessions.backends.cached_dynamodb'
+DYNAMODB_SESSIONS_TABLE_NAME = 'sessions'
+DYNAMODB_SESSIONS_TABLE_HASH_ATTRIB_NAME = 'session_key'
+DYNAMODB_SESSIONS_AWS_ACCESS_KEY_ID = 'ACCESS'
+DYNAMODB_SESSIONS_AWS_SECRET_ACCESS_KEY = 'SECRET'
+DYNAMODB_SESSIONS_AWS_REGION_NAME = 'ap-northeast-1'
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 
