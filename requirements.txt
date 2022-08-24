@@ -4,6 +4,7 @@ finance-datareader==0.9.31
 flatbuffers==1.12
 future==0.18.2
 Mako==1.1.4
+django-dynamodb-sessions==0.6
 Pillow==8.1.2
 PyMySQL==1.0.2
 pyOpenSSL==20.0.1
