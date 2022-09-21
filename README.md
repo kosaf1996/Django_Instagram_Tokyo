@@ -100,9 +100,3 @@ https://fonts.google.com/icons
 - 반대로 클라이언트에서 저장되는걸 쿠키라고 한다.
 - content/views.py
 - user/views.py
-
-## 완료 PPT/ 개발자 정보
-
-[Django_Instagram.pptx](https://github.com/kosaf1996/Django_Instagram/files/8661475/Django_Instagram.pptx)
-
-
